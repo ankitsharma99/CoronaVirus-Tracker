@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AffectedCountries"
+    android:background="@color/color_two"
+    >
+
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawableLeft="@drawable/ic_baseline_search_24"
+        android:background="@drawable/et_shadow"
+        android:drawablePadding="5dp"
+        android:hint="@string/et_stringSearch"
+        >
+    </EditText>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/et_search"
+        android:id="@+id/lv_trackCountriesListView"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+    </ListView>
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        android:id="@+id/spin_kitSearchActivity"
+        android:visibility="visible"
+        style="@style/SpinKitView.Large.ThreeBounce"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        app:SpinKit_Color="@color/colorAccent"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CoronaVirus Tracker</string>
+    <string name="btn_trackCountries">Track Countries</string>
+    <string name="tv_totalCasesText">Total Cases</string>
+    <string name="tv_deaths">Deaths</string>
+    <string name="tv_recovered">Recovered</string>
+    <string name="tv_active">Active Cases</string>
+    <string name="tv_globalStats">GLOBAL STATS</string>
+    <string name="tv_critical">Critical</string>
+    <string name="tv_todayCases">Today Cases</string>
+    <string name="tv_totalDeaths">Total Deaths</string>
+    <string name="tv_todayDeaths">Today Deaths</string>
+    <string name="tv_affectedCountries">Affected Countries</string>
+    <string name="et_stringSearch">Search</string>
+    <string name="tv_tests">Tests Done</string>
+    <string name="tv_countryName">Country</string>
+</resources>

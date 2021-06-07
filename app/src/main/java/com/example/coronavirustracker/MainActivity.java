@@ -142,6 +142,7 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.mnu_bookSlot:
                 Intent intent = new Intent(MainActivity.this, BookVaccineActivity.class);
+                startActivity(intent);
             default:
                 return super.onOptionsItemSelected(item);
         }

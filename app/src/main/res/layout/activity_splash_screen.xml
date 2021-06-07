@@ -31,6 +31,7 @@
         android:layout_marginTop="16dp"
         android:backgroundTint="#E1D1D1"
         android:text="Covid 19 Tracker"
+        android:fontFamily="@font/capriola"
         android:textColor="#000"
         android:textSize="20sp"
         android:textStyle="bold"

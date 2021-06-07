@@ -1,10 +1,13 @@
 package com.example.coronavirustracker;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
@@ -108,9 +111,6 @@ public class MainActivity extends AppCompatActivity {
                     scrollView.setVisibility(View.VISIBLE);
 
 
-
-
-
                 } catch (JSONException e) {
                     e.printStackTrace();
                     progressBar.setVisibility(View.INVISIBLE);
@@ -131,7 +131,20 @@ public class MainActivity extends AppCompatActivity {
         requestQueue.add(request);
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.book_slot, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
 
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.mnu_bookSlot:
+                Intent intent = new Intent(MainActivity.this, BookVaccineActivity.class);
+            default:
+                return super.onOptionsItemSelected(item);
+        }
 
-
+    }
 }

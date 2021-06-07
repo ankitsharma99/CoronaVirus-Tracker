@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CoronaVirusTracker">
-        <activity android:name=".DetailActivity"></activity>
+        <activity android:name=".BookVaccineActivity"></activity>
+        <activity android:name=".DetailActivity" />
         <activity android:name=".AffectedCountries" />
         <activity android:name=".SplashScreen">
             <intent-filter>

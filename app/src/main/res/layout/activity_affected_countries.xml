@@ -18,6 +18,7 @@
         android:paddingRight="10dp"
         android:drawableLeft="@drawable/ic_baseline_search_24"
         android:background="@drawable/et_shadow"
+
         android:drawablePadding="5dp"
         android:hint="@string/et_stringSearch"
         >

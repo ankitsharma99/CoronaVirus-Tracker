@@ -4,8 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/color_white"
+    android:background="#bdbdbd"
     tools:context=".MainActivity">
+
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView_graph"
@@ -14,8 +15,8 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
-        app:cardElevation="10dp"
-        app:cardCornerRadius="10dp"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="30dp"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -136,7 +137,6 @@
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
-
     <androidx.cardview.widget.CardView
         android:id="@+id/cardViewMid"
         android:layout_width="match_parent"
@@ -148,7 +148,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         app:cardCornerRadius="10dp"
-        app:cardElevation="10dp"
+        app:cardElevation="50dp"
         >
         <RelativeLayout
             android:layout_width="match_parent"
@@ -470,6 +470,7 @@
 
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
+
 
     <Button
         android:id="@+id/btn_track"
